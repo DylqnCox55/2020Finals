@@ -1,4 +1,4 @@
-reqCheckList=[False,False,False,False,False,]           
+ reqCheckList=[False,False,False,False,False,]           
 passwordList=[]
 strengthList=[]
 
