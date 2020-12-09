@@ -1,4 +1,4 @@
- reqCheckList=[False,False,False,False,False,]           
+'''reqCheckList=[False,False,False,False,False,]           
 passwordList=[]
 strengthList=[]
 
@@ -34,5 +34,39 @@ while False in reqCheckList:
 class Checker:
     def __init__(self, password):
         self.passToCheck = password
+'''
+import random
 
-    
+
+
+
+
+
+
+class Generator:
+    def __init__(self,capital,lowercase,numbers,symbols):
+        self.capital = capital
+        self.lowercase = lowercase
+        self.numbers = numbers
+        self.symbols = symbols
+
+    def getCapital(self, capital):
+        for i in range():
+            return chr(random.randint(65,90))
+
+    def getLowercase(self,lowercase):
+        for i in range():
+            return chr(random.randint(97,122))
+
+    def getNumbers(self, numbers):
+        for i in range():
+            return chr(random.randint(48,57))
+
+    def getSymbols(self, symbols):
+        for i in range():
+            return chr(random.randint(33,42))
+
+
+password= Generator(input("How many capital letters do you want? "),input("How many lowercase letters do you want? "),input("How many numbers do you want? "),input("How many symbols do you want? "))
+
+print(password)
